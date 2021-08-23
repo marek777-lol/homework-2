@@ -1,0 +1,1542 @@
+@import url('./reset.css');
+
+*::selection {
+    background-color: coral;
+    color: white;
+}
+
+body {
+    background-color: #979797;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.sufix {
+    font-size: 40px;
+}
+
+.header {
+    width: 1440px;
+    display: flex;
+    background-color: whitesmoke;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+}
+
+.main-container {
+    background-color: whitesmoke;
+    width: 1440px;
+    margin: auto;
+}
+
+.big1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.side-right {
+    width: 620px;
+    height: 570px;
+    background-color: black;
+    color: white;
+    padding: 0 50px 0 50px;
+}
+
+.READ-MORE-button {
+    background-color: black;
+    color: white;
+    width: 198px;
+    height: 55px;
+    border: 1px solid white;
+    margin-top: 40px;
+}
+
+.secon-leyer {
+    margin-top: 83px;
+}
+
+.lorem-text-h1 {
+    font-size: 30px;
+    margin-bottom: 54px;
+}
+
+.lorem-text-p {
+   line-height: 30px;
+   font-size: 20px;
+}
+
+.content-right  {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.niga-for-a-life {
+    width: 720px;
+    height: 570px;
+}
+
+.featured {
+    font-size: 20px;
+    margin-top: 119px;
+    margin-bottom: 40px;
+    margin-left: 150px;
+}
+
+
+.images-container {
+    margin-left: 150px;
+    display: flex
+}
+
+
+.black-img {
+    width: 557px;
+    height: 368px;
+    margin-right: 26px;
+    margin-bottom: 20px;
+}
+
+.random-guy {
+    width: 557px;
+    height: 368px; 
+    margin-bottom: 20px;
+}
+
+.first-leyer {
+    display: flex;
+    justify-content: space-between;
+    width: 557px;
+    font-size: 20px;
+} 
+
+.lorem1 {
+   font-size: 20px; 
+   margin-top: 20px;
+}
+
+.lifestyle {
+    font-size: 16px;
+    text-decoration: gray;
+    color: black;
+}
+
+.lorem2 {
+    font-size:  16px; 
+    margin-top: 20px;
+}
+
+.img-container {
+    margin-left: 150px;
+    margin-top: 100px;
+    display: flex;
+}
+
+.big2 {
+    width: 1124px;
+}
+
+.img1 {
+    margin-right: 26px;
+    margin-bottom: 20px;
+}
+
+.img2 {
+    margin-right: 26px;
+    margin-bottom: 20px;
+}
+
+.img3 {
+    width: 363px;
+    height: 240px;
+    margin-right: 26px;
+    margin-bottom: 20px;
+}
+
+.menu {
+    position: absolute;
+    left: 30px;
+    top: 70px;
+    z-index: 999;
+    height: 14px;
+}
+
+.menu-icon {
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;  
+}
+
+.menu-list {
+    display: none;
+}
+
+
+.lol {
+    font-size: 16px;
+}
+
+.menu:hover .menu-list {
+    cursor: pointer;
+    display: block;
+    line-height: 33px;
+    background-color: #FAFAFA;
+    width: 340px;
+    height: 340px;
+    font-size: 22px;
+    line-height: 45px;
+}
+
+.list-item {
+    position: relative;
+    color: black;
+    top: 30px;
+    right: -60px;
+    text-decoration:  underline gray;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.first-leyer2 {
+    display: flex;
+    justify-content: space-between;
+    width: 366px;
+}
+
+.lorem3 {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.book {
+    width: 571px;
+    height: 360px;
+}
+.first-leyer3 {
+    display: flex;
+    justify-content: space-between;
+    width: 366px;
+}
+
+.lorem4 {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.first-leyer5 {
+    display: flex;
+    justify-content: space-between;
+    width: 366px;
+}
+
+.lorem5 {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 1400px;
+}
+
+.button1 {
+    width: 238px;
+    height: 42px;
+    background-color: #303030;
+    color: white;
+    margin-top: 69px;
+    font-size: 19px;
+    margin-bottom: 69px;
+}
+
+
+.wrapper {
+    display: flex;
+    margin-left: 150px;
+    width: 1440px;
+}
+
+.right-side-big4 {
+    background-color: black;
+    width: 571px;
+    height: 360px;
+    /* width: 470px;
+    height: 360px; */
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+.button3 {
+    color: white;
+    background-color: black;   
+    border: none;
+    border: 1px solid white;
+    height: 42px;
+    width: 198px;
+    font-size: 20px;
+    margin-top: 33px;
+}
+
+
+.INTERVIEWS-title {
+    margin-left: 150px;
+    font-size: 20px;
+    margin-top: 65px;
+    margin-bottom: 40px;
+}
+
+.INTERVIEWS2 {
+    color: black;
+    text-decoration: gray;
+}
+
+.wrapper2 {
+    margin-left: 150px;
+    display: flex;;
+}
+
+
+.first-leyer0 {
+    display: flex;
+    justify-content: space-between;
+    width: 560px;
+    margin-top: -10px;
+}
+
+.lorem6 {
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.img-5 {
+    margin-right: 26px;
+    margin-bottom: 20px;
+}
+
+.firts-leyer6 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.lorem7 {
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.img7-container {
+    margin-left: 26px;
+}
+
+.first-leyer7 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.lorem8 {
+    margin-top: 20px;
+    font-weight: 700; 
+    text-transform: uppercase;
+}
+
+.button4-contaiener {
+    display: flex;
+    justify-content: center;
+}
+
+.news-title {
+    margin-left: 150px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.wrappper3 {
+    margin-left: 150px;
+    display: flex;
+}
+
+.first-leyer8 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.news-text {
+    text-decoration: gray;
+    color: black;
+}
+
+.lorem9 {
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.container-idk {
+    margin-left: 26px;
+}
+
+.first-leyer9 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.lorem10 {
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.container-what {
+    margin-left: 26px;
+}
+
+.first-leyer11 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.lorem11 {
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: black;
+    height: 142px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    flex-direction: column;
+    position: relative;
+    width: 1440px;
+}
+
+.desing {
+    font-size: 10px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.x-s {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+}
+
+.i-f {
+    font-style: italic; 
+}
+
+
+@media screen and (max-width: 1480px) and (min-width: 1024px) {
+    .header {
+        width: 1240px;
+        display: flex;
+        background-color: whitesmoke;
+        height: 120px;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        position: relative;
+    }
+
+    .main-container {
+        background-color: whitesmoke;
+        width: 1240px;
+        margin: auto;
+    }
+
+    .niga-for-a-life {
+        width: 620px;
+        height: 520px;
+    }
+
+    .first-leyer0 {
+        display: flex;
+        justify-content: space-between;
+        width: 455px;
+        margin-top: -10px;
+    }
+
+
+    .side-right {
+        width: 520px;
+        height: 520px;
+        background-color: black;
+        color: white;
+        padding: 0 50px 0 50px;
+    }
+
+    
+    .first-leyer {
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        position: relative;
+        top: -20px;
+        width: 455px;
+        right: 20px;
+    }
+  
+
+    .lol {
+        font-size: 12px;
+    }
+
+    .lifestyle {
+        font-size: 12px;
+    }
+
+    .secon-leyer {
+     position: absolute;
+     top: 10px;
+     left: -1px;
+     font-size: 14px;
+    }
+    
+.lorem-text-p {
+    font-size: 17px;
+    margin-right: 20px; 
+}
+
+.READ-MORE-button {
+    background-color: black;
+    color: white;
+    width: 198px;
+    height: 55px;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+
+
+.featured {
+    font-size: 17px;
+    margin-top: 119px;
+    margin-bottom: 40px;
+    margin-left: 150px;
+    font-weight: 700;
+}
+
+.black-img {
+    width: 455px;
+    height: 301px;
+    margin-right: 26px;
+    margin-bottom: 20px;
+}
+
+.lorem1 {
+    font-size: 16px;
+}
+
+.lorem2 {
+    font-size: 14px;
+}
+
+.random-guy {
+    width: 455px;
+    height: 301px;
+    margin-bottom: 20px;
+}
+
+    .lorem-text-h1 {
+        font-size: 25px;
+        width: 490px;  
+        position: absolute;
+        top: -50px;
+    }
+
+    .images-container {
+        margin-left: 150px;
+    }
+
+    .img-container {
+        margin-left: 150px;
+        margin-top: 100px;
+        display: flex;
+    }
+
+    .img1 {
+        width: 295px;
+        height: 195px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+
+    .img2 {
+        width: 295px;
+        height: 195px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+
+    .img3 {
+        width: 295px;
+        height: 195px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+
+    .first-leyer2 {
+        display: flex;
+        justify-content: space-between;
+        width: 295px;
+    }
+
+    .first-leyer3 {
+        display: flex;
+        justify-content: space-between;
+        width: 295px;
+    }
+
+    .first-leyer5 {
+        display: flex;
+        justify-content: space-between;
+        width: 295px;
+    }
+
+    .lorem3 {
+      font-size: 15px;
+      width: 200px;
+      position: relative;
+      left: 0;
+    }
+
+    .date1 {
+        font-size: 12px;
+    }
+
+    .lorem4 {
+        font-size: 12px;
+    }
+
+    .lorem5 {
+        font-size: 12px;
+    }
+    .wrapper {
+        margin-left: 150px;
+        display: flex;
+    }
+
+    .book {
+        width: 470px;
+        height: 360px;
+    }
+
+    .right-side-big4 {
+        background-color: black;
+        width: 470px;
+        height: 360px;
+        color: white;
+        text-align: center;
+        padding-top: 120px;
+        box-sizing: border-box;
+        font-size: 30px;
+    }
+
+
+    .INTERVIEWS-title {
+        margin-left: 150px;
+        font-size: 20px;
+        margin-top: 65px;
+        margin-bottom: 40px;
+        font-weight: 700;
+    }
+
+    .wrapper2 {
+        margin-left: 150px;
+        display: flex;
+    }
+
+    .wrapper3 {
+        margin-left: 150px;
+        display: flex;
+    }
+
+    .news-title {
+        margin-left: 150px;
+        font-weight: 700;
+    }
+
+    .img-5 {
+        width: 295px;
+        height: 195px;
+    }
+
+    .img-6 {
+        width: 295px;
+        height: 195px;
+    }
+
+    .img-7 {
+        width: 295px;
+        height: 195px;
+    } 
+
+    .date1 {
+        font-size: 12px;
+    }
+
+    .news-text {
+        font-size: 12px;
+    }
+
+    .INTERVIEWS2 {
+        font-size: 12px;
+    }
+
+  .INTERVIEWS2 {
+      margin-top: -10px;
+  }
+
+  .date1 {
+    margin-top: -10px;
+  }
+  .first-leyer7 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 295px;
+}
+
+    .lorem6 {
+        text-transform: uppercase;
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 13px;
+    }
+
+    .lorem7 {
+        text-transform: uppercase;
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 13px;
+    }
+
+    .lorem8 {
+        text-transform: uppercase;
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 13px;
+    }
+
+    .lorem3 {
+        font-size: 13px;
+    }
+
+    .lorem4 {
+        font-size: 13px;
+    }
+
+    .lorem5 {
+        font-size: 13px;
+    }
+
+    .date1 {
+        margin-top: 3px;
+    }
+
+    .date2 {
+        font-size: 13px;
+        margin-top: -10px;
+    }
+
+    .mic {
+        width: 295px;
+        height: 195px;
+    }
+
+    .idk {
+        width: 295px;
+        height: 195px;
+    }
+
+    .what {
+        width: 295px;
+        height: 195px;   
+    }
+
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        width: 1240px;
+    }
+    
+    .button1 {
+        width: 238px;
+        height: 42px;
+        background-color: #303030;
+        color: white;
+        margin-top: 69px;
+        font-size: 19px;
+        margin-bottom: 69px;
+    }
+
+    .footer {
+        width: 1240px;
+    }
+
+    .first-leyer8 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        width: 295px;
+    }
+
+  .first-leyer9 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 295px;
+}
+
+
+.first-leyer11 {
+    display: flex;
+    justify-content: space-between;
+    width: 295px;
+    margin-top: 20px;
+}
+
+.lorem9 {
+  font-size: 13px;
+}
+
+.lorem10 {
+    font-size: 13px;
+}
+
+.lorem11 {
+    font-size: 13px;
+}
+
+
+
+}
+
+@media screen and (max-width: 1026px) and (min-width: 868px) {
+    .header {
+        width: 768px;
+        display: flex;
+        background-color: whitesmoke;
+        height: 120px;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        position: relative;
+    }
+
+    .main-container {
+        background-color: whitesmoke;
+        width: 768px;
+        margin: auto;
+    }
+
+    .niga-for-a-life {
+        width: 384px;
+        height: 354px;
+    }
+
+    .first-leyer0 {
+        display: flex;
+        justify-content: space-between;
+        width: 345px;
+        margin-top: -10px;
+    }
+
+    .side-right {
+        width: 285px;
+        height: 354px;
+        background-color: black;
+        color: white;
+        padding: 0 49px 0 50px;
+    }
+    
+    .first-leyer {
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        position: relative;
+        top: -100px;
+        width: 345px;
+        right: 20px;
+    }
+
+    .footer {
+        background-color: black;
+        height: 142px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 50px;
+        flex-direction: column;
+        position: relative;
+        width: 768px;  
+    }
+    .lol {
+        font-size: 12px;
+    }
+
+    .lifestyle {
+        font-size: 12px;
+    }
+
+    .secon-leyer {
+     position: absolute;
+     width: 400px;
+     top: -100px;
+     left: -7px;
+     font-size: 14px;
+    }
+    
+.lorem-text-p {
+    font-size: 17px;
+    margin-right: 20px;
+    width: 300px; 
+}
+
+.READ-MORE-button {
+    background-color: black;
+    color: white;
+    width: 198px;
+    height: 55px;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+
+
+.featured {
+    font-size: 17px;
+    margin-top: 119px;
+    margin-bottom: 40px;
+    margin-left: 24px;
+    font-weight: 700;
+}
+
+.black-img {
+    width: 345px;
+    height: 228px;
+    margin-right: 26px;
+    margin-bottom: 20px;
+}
+
+.lorem1 {
+    font-size: 16px;
+}
+
+.lorem2 {
+    font-size: 14px;
+}
+
+.random-guy {
+    width: 345px;
+    height: 228px;
+    margin-bottom: 20px;
+}
+
+.lorem2 {
+    width: 300px;
+}
+    .lorem-text-h1 {
+        font-size: 25px;
+        width: 490px;  
+        position: absolute;
+        top: -50px;
+    }
+
+    .images-container {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .img-container {
+        display: flex;
+        margin-left: 24px;
+        margin-top: 100px;
+        flex-wrap: wrap;
+    }
+
+    .img1 {
+        width: 220px;
+        height: 145px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+
+    .img2 {
+        width: 220px;
+        height: 145px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+
+    .img3 {
+        width: 220px;
+        height: 145px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+
+    .first-leyer2 {
+        display: flex;
+        justify-content: space-between;
+        width: 220px;
+    }
+
+    .first-leyer3 {
+        display: flex;
+        justify-content: space-between;
+        width: 220px;
+    }
+
+    .first-leyer5 {
+        display: flex;
+        justify-content: space-between;
+        width: 220px;
+    }
+
+    .lorem3 {
+      font-size: 15px;
+      width: 200px;
+      position: relative;
+      left: 0;
+    }
+
+    .date1 {
+        font-size: 12px;
+    }
+
+    .lorem4 {
+        font-size: 12px;
+    }
+
+    .lorem5 {
+        font-size: 12px;
+    }
+    .wrapper {
+        margin-left: 24px;
+        display: flex;
+    }
+
+    .book {
+        width: 359px;
+        height: 275px;
+    }
+
+    .right-side-big4 {
+        background-color: black;
+        width: 359px;
+        height: 275px;
+        color: white;
+        text-align: center;
+        padding-top: 50px;
+        box-sizing: border-box;
+        font-size: 30px;
+    }
+
+    .INTERVIEWS-title {
+        margin-left: 24px;
+        font-size: 20px;
+        margin-top: 65px;
+        margin-bottom: 40px;
+        font-weight: 700;
+    }
+
+    .wrapper2 {
+        margin-left: 24px;
+        display: flex;
+    }
+
+    .wrapper3 {
+        margin-left: 24px;
+        display: flex;
+    }
+
+    .news-title {
+        margin-left: 24px;
+        font-weight: 700;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        width: 1026px;
+    }
+
+    .img-5 {
+        width: 220px;
+        height: 145px;
+    }
+
+    .img-6 {
+        width: 220px;
+        height: 145px;
+    }
+
+    .img-7 {
+        width: 220px;
+        height: 145px;
+    } 
+
+    .date1 {
+        font-size: 12px;
+    }
+
+    .news-text {
+        font-size: 12px;
+    }
+
+    .INTERVIEWS2 {
+        font-size: 12px;
+    }
+
+  .INTERVIEWS2 {
+      margin-top: -10px;
+  }
+
+  .date1 {
+    margin-top: -10px;
+  }
+  .first-leyer7 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 220px;
+}
+
+    .lorem6 {
+        text-transform: uppercase;
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 13px;
+    }
+
+    .lorem7 {
+        text-transform: uppercase;
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 13px;
+    }
+
+    .lorem8 {
+        text-transform: uppercase;
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 13px;
+    }
+
+    .lorem3 {
+        font-size: 13px;
+    }
+
+    .button1 {
+        width: 238px;
+        height: 42px;
+        background-color: #303030;
+        color: white;
+        margin-top: 69px;
+        font-size: 19px;
+        position: relative;
+        right: 140px;
+        margin-bottom: 69px;
+    }
+
+    .lorem4 {
+        font-size: 13px;
+    }
+
+    .lorem5 {
+        font-size: 13px;
+    }
+
+    .date1 {
+        margin-top: 3px;
+    }
+
+    .date2 {
+        font-size: 13px;
+        margin-top: -10px;
+    }
+
+    .mic {
+        width: 220px;
+        height: 145px;  
+    }
+
+    .idk {
+        width: 220px;
+        height: 145px; 
+    }
+
+    .what {
+        width: 220px;
+        height: 145px;     
+    }
+
+    .first-leyer8 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        width: 220px;
+        margin-left: 20px;
+    }
+
+    .lorem9 {
+       margin-left: 20px;
+    }
+
+  .first-leyer9 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 220px;
+}
+
+.wrappper3 {
+    margin-left: 0px;
+    display: flex;
+    margin-right: 24px;
+}
+
+
+.first-leyer11 {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    margin-top: 20px;
+}
+
+.lorem9 {
+  font-size: 13px;
+}
+
+.lorem10 {
+    font-size: 13px;
+}
+
+.lorem11 {
+    font-size: 13px;
+}
+
+}
+
+
+@media screen and (max-width: 868px) and (min-width: 100px) {
+    .header {
+        width: 320px;
+    }
+
+    .main-container {
+        width: 320px;
+        margin: auto;
+    }
+
+    .niga-for-a-life {
+        width: 320px;
+        height: 294px;
+    }
+
+    .side-right {
+        width: 221px;
+        height: 354px;
+        background-color: black;
+        color: white;
+        padding: 0 49px 0 50px;
+    }
+    
+    
+    .first-leyer {
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        position: relative;
+        top: -100px;
+        width: 250px;
+        right: 20px;
+    }
+
+    .lorem-text-h1 {
+        font-size: 20px;
+        width: 490px;  
+        position: absolute;
+        top: -50px;
+        left: -33px;
+    }
+
+    .lorem-text-p {
+        font-size: 12px;
+        margin-right: 20px; 
+        position: relative;
+        top: -120px;
+    }
+
+    .READ-MORE-button {
+        background-color: black;
+        color: white;
+        width: 198px;
+        height: 40px;
+        border: 1px solid white;
+        position: relative;
+        top: -160px;
+    }
+
+    .featured {
+        font-size: 17px;
+        margin-top: 119px;
+        margin-bottom: 40px;
+        margin-left: 12px;
+        font-weight: 700;
+    }
+
+    .images-container {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .images-container {
+        margin-left: 12px;
+        margin-right: 12px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .black-img {
+        width: 295px;
+        height: 195px;
+    }
+
+    .p {
+        display: none;
+    }
+
+    .random-guy {
+        width: 295px;
+        height: 195px;  
+    }
+
+    .lorem1 {
+        width: 300px;
+        line-height: 20px;
+    }
+
+    .lorem2 {
+        width: 300px;
+        line-height: 20px;
+    }
+
+
+    .img-container {
+        margin-left: 12px;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img1 {
+    width: 295px;
+    height: 194px;
+    }
+
+    .img2 {
+    width: 295px;
+    height: 194px;
+    }
+
+    .img3 {
+    width: 295px;
+    height: 194px;
+    }
+
+    .first-leyer2 {
+    width: 295px;
+    }
+
+    .first-leyer3 {
+    width: 295px;
+    }
+
+    .first-leyer5 {
+    width: 295px;
+    }
+
+
+    .lorem3 {
+        line-height: 20px;
+    }
+
+    .lorem5 {
+        line-height: 20px;
+    }
+    .footer {
+        background-color: black;
+        height: 142px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 50px;
+        flex-direction: column;
+        position: relative;
+        width: 320px;
+    }
+
+    .button1 {
+        width: 238px;
+        height: 42px;
+        background-color: #303030;
+        color: white;
+        margin-top: 69px;
+        font-size: 19px;
+        margin-bottom: 69px;
+    }
+
+    .button-container {
+     position: relative;
+     width: 386px;
+     left: -30px;
+    }
+
+    .wrapper {
+        margin-left: 0;
+        display: flex;
+        width: 320px;
+        flex-wrap: wrap;
+    }
+
+    .wrapper2 {
+        margin-left: 12px;
+        display: flex;
+        width: 320px;
+        flex-wrap: wrap;
+    }
+
+    .book {
+        width: 320px;
+        height: 245px;
+    }
+    .right-side-big4 {
+        background-color: black;
+        width: 359px;
+        height: 275px;
+        color: white;
+        text-align: center;
+        padding-top: 50px;
+        box-sizing: border-box;
+        font-size: 30px;
+}
+
+.footer {
+    background-color: black;
+    height: 142px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    flex-direction: column;
+    position: relative;
+}
+ 
+
+.INTERVIEWS-title {
+    margin-left: 12px;
+}
+
+.img-5 {
+    width: 296px;
+    height: 194px;
+}
+
+.img-6 {
+    width: 296px;
+    height: 194px;
+}
+
+.img-7 {
+    width: 296px;
+    height: 194px;
+    position: relative;
+    left: -25px;
+}
+
+.first-leyer7 {
+    position: relative;
+    left: -20px;
+}
+
+.lorem8 {
+    position: relative;
+    left: -20px;
+}
+
+.wrappper3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+
+.mic {
+    width: 296px;
+    height: 194px;  
+}
+
+.idk {
+    width: 296px;
+    height: 194px;
+}
+
+.what {
+    width: 296px;
+    height: 194px;  
+}
+
+.news-title {
+    margin-left: 12px;
+}
+
+.first-leyer8 {
+    width: 296px;
+}
+
+.first-leyer9 {
+    width: 296px;
+}
+
+.first-leyer11 {
+    width: 296px;
+}
+
+.container-idk {
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.container-what {
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+}
